@@ -6,3 +6,24 @@
     box-sizing: border-box;
 }
 
+header {
+    height: 80px;
+    background-color:burlywood;
+}
+
+header > .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.container > ul {
+    display: flex;
+    gap: 40px;
+}
+
+.container ul li {
+    list-style-type: none;
+}
+
+
