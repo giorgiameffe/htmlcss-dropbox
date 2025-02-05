@@ -149,7 +149,15 @@ h2 {
     height: 500px;
 }
 
+.container > .marketing {
+    width: 600px;
+}
 
+.marketing > h3 {
+    font-size: 30px;
+    margin-top: 200px;
+    margin-bottom: 70px;
+}
 
 
 
