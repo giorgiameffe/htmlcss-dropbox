@@ -51,13 +51,13 @@ header > .hcontainer {
     display: flex;
 }
 
-.containerbig .freetrial {
+.text {
     width: 400px;
     background-color: #3491db;
 
 }
 
-.containerbig .img {
+.img {
     width: 800px;
     background-color: #ffffff;
 
@@ -118,11 +118,30 @@ h2 {
 
 /* Seconda griglia */
 
-.row > .col {
+.container .row > .col {
     height: 250px;
+    width: 1000px;
 }
 
+/* Foto e testo */
 
+.partner .container {
+    display: flex;
+    height: 500px;
+    margin-top: 200px;
+}
+
+.partner .text {
+    height: 500px;
+    width: 500px;
+    background-color: #3491db;
+}
+
+.partner .container .img {
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+}
 
 
 
