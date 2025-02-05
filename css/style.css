@@ -43,11 +43,11 @@ header > .hcontainer {
 .container {
     width: 1200px;
     margin: 0 auto;
-    display: flex;
 }
 
 .bg-lightblue > .container {
     height: 400px;
+    display: flex;
 }
 
 h1 {
@@ -70,5 +70,45 @@ h1 {
     width: 800px;
     background-color: #ffffff;
 }
+ 
+hr {
+    margin-top: 120px;
+ }
+
+h2 {
+    font-size: 25px;
+    padding-top:120px;
+    padding-bottom: 70px;
+}
+
+.container > .payment {
+    margin-right: 50px;
+}
+
+.paymentmethods {
+    display: flex;
+    gap: 40px;
+}
+
+.col {
+    height: 950px;
+    border: 1px solid grey;
+    width: calc(100% - 100px /3);
+    background-color: #b4d0e6;
+    margin-top: 50px;
+}
+
+.client {
+    padding: 10px 40px;
+    text-align: center;
+    flex-direction: row;
+    border-bottom: 1px solid grey;
+}
+
+
+
+
+
+
 
 
