@@ -143,5 +143,13 @@ h2 {
     background-color: grey;
 }
 
+/* Griglia a sei */
+
+.business > .col {
+    height: 500px;
+}
+
+
+
 
 
