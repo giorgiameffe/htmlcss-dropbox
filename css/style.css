@@ -230,6 +230,8 @@ section > .btn {
     padding: 15px 80px;
 }
 
+/* Seconda griglia */
+
 .col .col2 {
     width: 600px;
 }
@@ -237,6 +239,7 @@ section > .btn {
 .solution {
     font-size: 12px;
     padding-left: 30px;
+    margin-bottom: 30px;
 }
 
 .row > .col {
@@ -247,38 +250,34 @@ section > .btn {
     position: absolute;
     top: 30px;
     right: 30px;
-
-}
-
-
-/* Seconda griglia */
-
-.container .row > .col {
-    height: 250px;
-    width: 100%px;
 }
 
 /* Foto e testo */
 
 .partner .container {
     display: flex;
-    height: 500px;
     margin-top: 200px;
 }
 
-.partner .text, .partner .img {
+.partner .text, .partner .images {
     width: 50%;
 }
 
 .partner .text {
-    height: 500px;
-    background-color: #3491db;
+    padding-left: 50px;
+    padding-right: 100px;
 }
 
-.partner .container .img {
-    height: 500px;
-    background-color: grey;
+.text > h3 {
+    padding-bottom: 25px;
 }
+
+.container .text .button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+}
+
 
 /* Griglia a sei */
 
