@@ -230,6 +230,26 @@ section > .btn {
     padding: 15px 80px;
 }
 
+.col .col2 {
+    width: 600px;
+}
+
+.solution {
+    font-size: 12px;
+    padding-left: 30px;
+}
+
+.row > .col {
+    position: relative;
+}
+
+.row .col .btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+
+}
+
 
 /* Seconda griglia */
 
