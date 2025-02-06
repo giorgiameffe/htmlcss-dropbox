@@ -16,7 +16,7 @@ header {
     position: fixed;
     left: 0;
     right: 0;
-    
+    z-index: 3;
 }
 
 
@@ -36,9 +36,7 @@ header a {
 }
 
 header .button {
-    background-color: #0061fe;
     padding: 5px 10px;
-    color: #ffffff;
 }
 
 /* Common */
@@ -59,13 +57,12 @@ header .button {
     font-optical-sizing: auto;
 }
 
-body {
-    font-size: 13px;
-}
 
 .button {
-    display: inline-block;
-    padding: 15px;
+    padding: 15px 18px;
+    background-color: #0061fe;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .button:hover {
@@ -73,46 +70,54 @@ body {
 }
 
 
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
 /* Debug */
 
 /* Jumbotron */
 
-.debug .jumbotron {
-    height: 730px;
+.jumbotron {
     background-color: #b4d0e6;
-}
-
-.jumbotron > .bcontainer {
-    width: 1200px;
-    margin: 0 auto;
-    height: 400px;
-    display: flex;
-}
-
-.text {
-    width: 30%;
-    background-color: #3491db;
-
-}
-
-.img {
-    width: 70%;
-    background-color: #ffffff;
-
+    margin-bottom: 150px;
 }
 
 h1 {
-    width: 1200px;
-    margin: 0 auto;
-    text-align: left;
-    font-size: 50px;
-    padding-top: 100px;
-    padding-bottom: 70px;
+    margin-bottom: 50px;
+    font-size: 60px;
 }
+
+.jumbotron .jumboinfo {
+    display: flex;
+}
+
+.jumbotron .jumboleft {
+    width: 30%;
+}
+
+.jumbotron .jumboright {
+    width: 70%;
+}
+
+.jumbotron .bcontainer {
+    position: relative;
+    top: 100px;
+}
+
+.btn {
+    margin-top: 40px;
+}
+
+
+
+
  
 hr {
     margin-top: 120px;
- }
+}
 
 /* Main */
 
