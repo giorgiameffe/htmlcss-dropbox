@@ -76,6 +76,7 @@ img {
 }
 
 
+
 /* Jumbotron */
 
 .jumbotron {
@@ -242,6 +243,7 @@ section > .btn {
     margin-bottom: 30px;
 }
 
+
 .row > .col {
     position: relative;
 }
@@ -281,9 +283,26 @@ section > .btn {
 
 /* Griglia a sei */
 
-.business > .col {
+.business {
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.col2 {
+    background-color: yellowgreen;
+    width: calc(100% / 3 - 80px /3);
+}
+
+.business .col2 {
     height: 500px;
 }
+
+.col2 > h3 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
 
 /* Ultima sezione main */
 
