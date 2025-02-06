@@ -178,7 +178,24 @@ footer ul {
     height: 350px;
     background-color: #b4d0e6;
     border: 1px solid black;
-    
 }
+
+/* Footer seconda parte */
+
+.it {
+    background-color: #3491db;
+}
+
+.it .containerbig {
+    height: 120px;
+    padding-top: 60px;
+}
+
+.language > a {
+    text-decoration: none;
+}
+
+
+
 
 
