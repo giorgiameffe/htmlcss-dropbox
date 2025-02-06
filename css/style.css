@@ -320,13 +320,12 @@ footer {
 }
 
 footer .bcontainer {
-    padding-top: 100px;
+    padding-top: 70px;
     display: flex;
 }
 
 footer ul {
     width: 1200px;
-    height: 350px;
     background-color: #000000;
     color: #ffffff;
     font-size: 12px;
@@ -335,7 +334,7 @@ footer ul {
 footer ul li:first-child {
     font-weight: bold;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
 }
 
 footer ul li {
@@ -344,17 +343,14 @@ footer ul li {
 
 /* Footer seconda parte */
 
-.it {
-    background-color: #3491db;
-}
-
-.it .bcontainer {
-    height: 120px;
-    padding-top: 60px;
-}
-
-.language > a {
+footer .language {
     text-decoration: none;
+    color: #d0cfd4;
+    font-size: 12px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-top: 2px solid #d0cfd4;
+    
 }
 
 
