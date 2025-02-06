@@ -94,12 +94,17 @@ h1 {
     display: flex;
 }
 
-.jumbotron .jumboleft {
+/* .jumbotron .jumboleft {
     width: 30%;
-}
+    position: relative;
+} */
 
 .jumbotron .jumboright {
     width: 70%;
+}
+
+.jumbotron .jumboleft {
+    width: 30%;
 }
 
 .jumbotron .bcontainer {
@@ -107,14 +112,16 @@ h1 {
     top: 100px;
 }
 
-.btn {
+.btn, .t {
     margin-top: 40px;
 }
 
+.arrowdown {
+    font-size: 40px;
+    margin-top: 50px;
 
+}
 
-
- 
 hr {
     margin-top: 120px;
 }
