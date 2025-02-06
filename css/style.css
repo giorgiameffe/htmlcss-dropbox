@@ -26,7 +26,7 @@ header > ul {
     align-items: center;
 }
 
-header ul li {
+ul li {
     list-style-type: none;
 }
 
@@ -76,8 +76,6 @@ img {
 }
 
 
-/* Debug */
-
 /* Jumbotron */
 
 .jumbotron {
@@ -94,10 +92,6 @@ h1 {
     display: flex;
 }
 
-/* .jumbotron .jumboleft {
-    width: 30%;
-    position: relative;
-} */
 
 .jumbotron .jumboright {
     width: 70%;
@@ -164,11 +158,14 @@ h2 {
 
 .col .list {
     padding-left: 30px;
+    padding-right: 30px;
 }
+
 
 h3 {
     padding-top: 35px;
 }
+
 .col .price {
     padding-top: 25px;
     font-size: 12px;
@@ -194,6 +191,36 @@ h3 {
     text-align: center;
     border-bottom: 1px solid grey;
 }
+
+section > .list {
+    padding-top: 50px;
+}
+
+.list > li {
+    padding-bottom: 25px;
+}
+
+section > .btn {
+    text-align: center;
+}
+
+.utility .button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.checked li:first-child {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checked i {
+    color: #0062fe;
+}
+
+
+
+
 
 /* Seconda griglia */
 
