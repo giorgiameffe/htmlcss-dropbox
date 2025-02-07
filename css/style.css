@@ -39,6 +39,11 @@ header .button {
     padding: 5px 10px;
 }
 
+.menu:hover {
+    border-bottom: 2px solid #000000;
+    padding-bottom: 20px;
+}
+
 /* Common */
 
 .bcontainer {
@@ -134,6 +139,7 @@ h2 {
 
 .container > .payment {
     margin-right: 50px;
+    display: inline-block;
 }
 
 .paymentmethods {
@@ -218,9 +224,8 @@ section > .btn {
     color: #0062fe;
 }
 
-.rule {
-    display: inline-block;
-    height: 60px;
+.rule {display: inline-block;
+    padding-bottom: 60px;
     border-bottom: 1px solid #d0cfd4;
 }
 
@@ -335,6 +340,11 @@ footer ul li:first-child {
     font-weight: bold;
     font-size: 16px;
     margin-bottom: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
 }
 
 footer ul li {
